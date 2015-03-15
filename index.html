@@ -1,62 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="bfApiApp">
 <head lang="en">
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TSB</title>
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <script src="lib/angular/angular.js"></script>
-    <style>
-        @font-face {
-            font-family: bfFont;
-            src: url(fonts/battlefieldv4.ttf);
-        }
-
-        html {
-            height: 100%;
-        }
-
-        body {
-            height: 100%;
-        }
-
-        #header {
-            height: 100%;
-            background: url("images/1.jpg");
-            background-size: cover;
-        }
-
-        .bffont {
-            font-family: bfFont;
-        }
-
-        #header span {
-            color: white;
-            display: block;
-            text-align: center;
-        }
-
-        #header .big {
-            font-size: 10em;
-        }
-
-        #header .small {
-            font-size: 3em;
-        }
-
-        .header-container {
-            position: absolute;
-            top: 40%;
-            margin-top: -5em;
-            width: 100%;
-        }
-        .stats-below{
-            position: absolute;
-            bottom:0px;
-            text-align: center;
-            width: 100%;
-            font-size: 1.5em;
-        }
-    </style>
 </head>
 
 <body ng-controller="playerCtrl">
